@@ -1,0 +1,32 @@
+.wpstu-box {
+    max-width: 40%;
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+    padding: 40px;
+}
+
+.field-group {
+    margin-bottom: 20px;
+}
+
+.wpstu-box label {
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.wpstu-box h1 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.wpstu-box h1:after {
+    content: "";
+    background: #a6c626;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
